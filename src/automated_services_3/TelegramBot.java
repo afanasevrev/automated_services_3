@@ -27,12 +27,14 @@ import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
  * Класс для взаимодействия c клиентами в мессенджере Telegram
  */
 public class TelegramBot extends TelegramLongPollingBot {
-
+	
+ // Токен своего бота вы запрашиваете у BotFather-а в Телеграм мессенджере
    @Override
     public String getBotToken() {
         return "token1";
     }
-    
+	
+ // Имя своему боту тоже задаете через BotFather-а   
     @Override
     public String getBotUsername() {
         return "automatedservices_bot";
