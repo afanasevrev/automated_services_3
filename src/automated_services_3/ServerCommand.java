@@ -117,7 +117,7 @@ public class ServerCommand extends TimerTask{
         FileReader filereaderManualsForAdmins = new FileReader(fileManualsForAdmins);
         BufferedReader readerManualsForAdmins = new BufferedReader(filereaderManualsForAdmins);
         
-        // Цикл для ManualsForUsers
+        // Цикл для ManualsForAdmins
         while((line = readerManualsForAdmins.readLine()) != null) {  
             Lists.manualsForAdmins = Lists.manualsForAdmins + line + "\n";
         }
